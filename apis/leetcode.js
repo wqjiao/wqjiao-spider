@@ -11,6 +11,7 @@ const leetCode = require('../model/leetCode');
 router.get('/leetCode', async (ctx, next) => {
     const req = ctx.request.query;
     const examples = await leetCode.find(req, { _id: 0 });
+    console.log(req, examples)
   
     ctx.status = 200;
     ctx.body = {
