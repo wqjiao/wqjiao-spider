@@ -1,19 +1,20 @@
 /*
  * @Author: wqjiao 
  * @Date: 2019-07-11 18:45:37 
- * @Last Modified by:   wqjiao 
- * @Last Modified time: 2019-07-11 18:45:37 
+ * @Last Modified by: wqjiao
+ * @Last Modified time: 2019-07-12 09:33:37
  * @Description: 入口文件
  */
+require('module-alias/register');
 const Koa = require('koa');
 const cors = require('koa2-cors');
 const bodyParser = require('koa-bodyparser');
 const mongoose = require('mongoose');
 const debug = require('debug');
 
-const config = require('./config');
-const apis = require('./apis');
-const spiders = require('./spider');
+const config = require('@root/config');
+const apis = require('@apis');
+const spiders = require('@spider');
 
 const app = new Koa();
 const appName = process.env.APP_NAME;

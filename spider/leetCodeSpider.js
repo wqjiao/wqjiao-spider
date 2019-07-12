@@ -1,16 +1,16 @@
 /*
  * @Author: wqjiao 
  * @Date: 2019-07-11 18:45:37 
- * @Last Modified by:   wqjiao 
- * @Last Modified time: 2019-07-11 18:45:37 
+ * @Last Modified by: wqjiao
+ * @Last Modified time: 2019-07-12 09:35:00
  * @Description: 力扣爬取数据方法 
  */
 const { get } = require('lodash');
 
-const writeFile = require('../utils/writeFile');
-const superAgent = require('../utils/superagent');
-const config = require('../config');
-const leetCodeSchema = require('../model/leetCode');
+const writeFile = require('@utils/writeFile');
+const superAgent = require('@utils/superagent');
+const config = require('@root/config');
+const leetCodeSchema = require('@model/leetCode');
 
 const { leetCode, leetProblems, leetDesc } = config.targets;
 
