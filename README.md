@@ -39,7 +39,7 @@ node app.js || npm start || npm run start:***
 mongoose.set('useCreateIndex', true);
 ```
 
-* `module-alias` 设置路径别名
+* `module-alias` 设置路径别名，并在 `Nodejs` 中注册自定义模块
 
     - `yarn add module-alias`
 
