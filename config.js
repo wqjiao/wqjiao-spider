@@ -75,6 +75,29 @@ const targets = {
             }
         }
     },
+    cloudAside: {
+        url: 'https://cloud.tencent.com/developer/services/ajax/devdoc?action=FetchAllChaptersMap',
+        method: 'POST',
+        options: {
+            headers: {
+                "pragma":"no-cache",
+                "cookie":"_ga=GA1.2.1385233795.1537251919; pgv_pvi=4560638976; qcloud_uid=0122ee38922c8a648edfea2db9242bad%40devE; language=zh; trafficParams=cpsreferer%3Dhttp%3A%2F%2Fwww.ttlsa.com%2Fauto%2Fgitlab-cicd-quick-start%2F%3B; _gcl_au=1.1.1674632389.1555916191; intl=; qcmainCSRFToken=rkg9YlnYbH; qcloud_visitId=102ca359d6c9688248388ddc3389555d; qcloud_from=qcloud.google.seo-1563177194090; pgv_si=s2032918528; _gat=1; _gat_gtag_UA_111938261_1=1",
+                "origin":"https://cloud.tencent.com",
+                "accept-encoding":"gzip, deflate, br",
+                "accept-language":"zh-CN,zh;q=0.9",
+                "user-agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36",
+                "content-type":"application/json;charset=UTF-8",
+                "accept":"application/json, text/plain, */*",
+                "cache-control":"no-cache",
+                "authority":"cloud.tencent.com",
+                "referer":"https://cloud.tencent.com/developer/section/1490715"
+            },
+            json: {
+                "action": "FetchAllChaptersMap",
+                "payload": {}
+            }
+        }
+    }
 };
 
 module.exports = {

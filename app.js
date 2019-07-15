@@ -2,7 +2,7 @@
  * @Author: wqjiao 
  * @Date: 2019-07-11 18:45:37 
  * @Last Modified by: wqjiao
- * @Last Modified time: 2019-07-12 09:33:37
+ * @Last Modified time: 2019-07-15 17:09:48
  * @Description: 入口文件
  */
 require('module-alias/register');
@@ -50,5 +50,9 @@ Object.values(apis).forEach(api => {
 app.listen(config.port, () => {
     console.log('Your App is running at http://localhost:%s', config.port);
 });
+// HTTP 和 HTTPS 或多个地址,同时启动多个地址服务
+// http.createServer(app.callback()).listen(config.port, () => {
+//     console.log('Your App is running at http://localhost:%s', config.port);
+// });
 
 debug('start');
