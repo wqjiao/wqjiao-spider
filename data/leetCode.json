@@ -1,5 +1,5 @@
 {
-	"total": 1097,
+	"total": 1107,
 	"data": [
 		{
 			"questionId": "1",
@@ -8338,6 +8338,30 @@
 			"question_href": "longest-arithmetic-sequence"
 		},
 		{
+			"questionId": "1088",
+			"title": "一月有多少天",
+			"typename": "AppliedTranslationNode",
+			"level": 1,
+			"question_id": 1088,
+			"question_href": "number-of-days-in-a-month"
+		},
+		{
+			"questionId": "1089",
+			"title": "删去字符串中的元音",
+			"typename": "AppliedTranslationNode",
+			"level": 1,
+			"question_id": 1089,
+			"question_href": "remove-vowels-from-a-string"
+		},
+		{
+			"questionId": "1091",
+			"title": "子树的最大平均值",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1091,
+			"question_href": "maximum-average-subtree"
+		},
+		{
 			"questionId": "1092",
 			"title": "节点与其祖先之间的最大差值",
 			"typename": "AppliedTranslationNode",
@@ -8456,6 +8480,14 @@
 			"level": 1,
 			"question_id": 1115,
 			"question_href": "valid-boomerang"
+		},
+		{
+			"questionId": "1118",
+			"title": "将数组分成几个递增序列",
+			"typename": "AppliedTranslationNode",
+			"level": 3,
+			"question_id": 1118,
+			"question_href": "divide-array-into-increasing-sequences"
 		},
 		{
 			"questionId": "1119",
@@ -8698,6 +8730,14 @@
 			"question_href": "building-h2o"
 		},
 		{
+			"questionId": "1187",
+			"title": "交替打印FooBar",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1187,
+			"question_href": "print-foobar-alternately"
+		},
+		{
 			"questionId": "1188",
 			"title": "花括号展开 II",
 			"typename": "AppliedTranslationNode",
@@ -8776,6 +8816,46 @@
 			"level": 2,
 			"question_id": 1208,
 			"question_href": "maximum-nesting-depth-of-two-valid-parentheses-strings"
+		},
+		{
+			"questionId": "1216",
+			"title": "打印零与奇偶数",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1216,
+			"question_href": "print-zero-even-odd"
+		},
+		{
+			"questionId": "1217",
+			"title": "数组的相对排序",
+			"typename": "AppliedTranslationNode",
+			"level": 1,
+			"question_id": 1217,
+			"question_href": "relative-sort-array"
+		},
+		{
+			"questionId": "1218",
+			"title": "最深叶节点的最近公共祖先",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1218,
+			"question_href": "lowest-common-ancestor-of-deepest-leaves"
+		},
+		{
+			"questionId": "1219",
+			"title": "表现良好的最长时间段",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1219,
+			"question_href": "longest-well-performing-interval"
+		},
+		{
+			"questionId": "1220",
+			"title": "最小的必要团队",
+			"typename": "AppliedTranslationNode",
+			"level": 3,
+			"question_id": 1220,
+			"question_href": "smallest-sufficient-team"
 		}
 	]
 }

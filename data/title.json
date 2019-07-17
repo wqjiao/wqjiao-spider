@@ -1,0 +1,35 @@
+{
+    "_id" : ObjectId("5d2da0269c808da9a556fe0a"),
+    "name" : "HTML",
+    "type" : "html"
+}
+{
+    "_id" : ObjectId("5d2e8a4591e821e520ad5fdd"),
+    "name" : "CSS",
+    "type" : "html"
+}
+{
+    "_id" : ObjectId("5d2e8a4591e821e520ad5fe0"),
+    "name" : "Javascript",
+    "type" : "javascript"
+}
+{
+    "_id" : ObjectId("5d2e8a4591e821e520ad5fe3"),
+    "name" : "NodeJs",
+    "type" : "node"
+}
+{
+    "_id" : ObjectId("5d2e8d7891e821e520ad6115"),
+    "name" : "React",
+    "type" : "react"
+}
+{
+    "_id" : ObjectId("5d2e8d7891e821e520ad6118"),
+    "name" : "Vue",
+    "type" : "vue"
+}
+{
+    "_id" : ObjectId("5d2e8d7891e821e520ad611b"),
+    "name" : "Java",
+    "type" : "java"
+}
