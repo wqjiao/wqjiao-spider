@@ -1,6 +1,4 @@
-/* 1 */
 {
-    "_id" : ObjectId("5d2ecff991e821e520adb503"),
     "id" : "1",
     "type" : "html",
     "title" : "DOCTYPE有什么作用?",
@@ -13,10 +11,7 @@
         }
     ]
 }
-
-/* 2 */
 {
-    "_id" : ObjectId("5d2ecff991e821e520adb506"),
     "id" : "2",
     "type" : "html",
     "title" : "HTML5为什么只需要写 <!DOCTYPE HTML> ?",
@@ -29,10 +24,7 @@
         }
     ]
 }
-
-/* 3 */
 {
-    "_id" : ObjectId("5d2ecff991e821e520adb509"),
     "id" : "3",
     "type" : "html",
     "title" : "行内元素、块级元素、空(void)元素分别有那些?",
@@ -45,10 +37,7 @@
         }
     ]
 }
-
-/* 4 */
 {
-    "_id" : ObjectId("5d2ecff991e821e520adb50c"),
     "id" : "4",
     "type" : "html",
     "title" : "简述一下你对HTML语义化的理解?",
@@ -61,10 +50,7 @@
         }
     ]
 }
-
-/* 5 */
 {
-    "_id" : ObjectId("5d2ecff991e821e520adb50f"),
     "id" : "1",
     "type" : "css",
     "title" : "CSS的盒子模型",
@@ -77,10 +63,7 @@
         }
     ]
 }
-
-/* 6 */
 {
-    "_id" : ObjectId("5d2ecff991e821e520adb512"),
     "id" : "1",
     "type" : "javascript",
     "title" : "两数之和",
@@ -93,10 +76,7 @@
         }
     ]
 }
-
-/* 7 */
 {
-    "_id" : ObjectId("5d2edc4291e821e520adc2a4"),
     "id" : "5",
     "type" : "html",
     "title" : "cookies、sessionStorage、localStorage 的区别?",
