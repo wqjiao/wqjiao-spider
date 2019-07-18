@@ -3,6 +3,7 @@
     "type" : "html",
     "title" : "DOCTYPE有什么作用?",
     "level" : 0,
+    "levelDesc" : "简单",
     "desc" : "描述 DOCTYPE 在 HTML 中的作用是什么?标准模式与混杂模式如何区分？它们有何意义?",
     "data" : [ 
         {
@@ -16,6 +17,7 @@
     "type" : "html",
     "title" : "HTML5为什么只需要写 <!DOCTYPE HTML> ?",
     "level" : 0,
+    "levelDesc" : "简单",
     "desc" : "在使用 HTML5 时，为什么只需要在最前面添加 &gt;!DOCTYPE HTML &lt",
     "data" : [ 
         {
@@ -29,6 +31,7 @@
     "type" : "html",
     "title" : "行内元素、块级元素、空(void)元素分别有那些?",
     "level" : 0,
+    "levelDesc" : "简单",
     "desc" : "分别列举出行内元素、块级元素、 空(void)元素有那些?",
     "data" : [ 
         {
@@ -42,6 +45,7 @@
     "type" : "html",
     "title" : "简述一下你对HTML语义化的理解?",
     "level" : 0,
+    "levelDesc" : "简单",
     "desc" : "简述一下你对HTML语义化的理解",
     "data" : [ 
         {
@@ -55,6 +59,7 @@
     "type" : "css",
     "title" : "CSS的盒子模型",
     "level" : 0,
+    "levelDesc" : "简单",
     "desc" : "介绍一下标准的CSS的盒子模型？与低版本IE的盒子模型有什么不同的？",
     "data" : [ 
         {
@@ -68,6 +73,7 @@
     "type" : "javascript",
     "title" : "两数之和",
     "level" : 0,
+    "levelDesc" : "简单",
     "desc" : "给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。",
     "data" : [ 
         {
@@ -81,6 +87,7 @@
     "type" : "html",
     "title" : "cookies、sessionStorage、localStorage 的区别?",
     "level" : 1,
+    "levelDesc" : "中等",
     "desc" : "分别描述cookies、sessionStorage、localStorage 之间的共同点、不同点及优缺点",
     "data" : [ 
         {

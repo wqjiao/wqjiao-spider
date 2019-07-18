@@ -2,7 +2,7 @@
  * @Author: wqjiao
  * @Date: 2019-03-25 17:57:51
  * @Last Modified by: wqjiao
- * @Last Modified time: 2019-07-17 18:24:33
+ * @Last Modified time: 2019-07-18 15:10:57
  * @Description: interview
  */
 const router = require('koa-router')();
@@ -60,12 +60,27 @@ router.post('/interview/detail', async (ctx, next) => {
     }
 });
 
+// 保存数据库
+function onSave(item) {
+    return new Promise(async (resolve, reject) => {
+        await new interviewList(item)
+            .save()
+            .then((data) => {
+                console.log(`存入数据库成功`);
+                resolve(data);
+            })
+            .catch((err) => {
+                reject(err);
+            })
+    });
+}
+
 // 更新数据库
 function onUpdate(query, item) {
     return new Promise(async (resolve, reject) => {
-        await leetCodeSchema.updateOne(query, item)
+        await interviewList.updateOne(query, item)
             .then((data) => {
-                console.log(`更新数据库成功 ${item.questionId}`);
+                console.log(`更新数据库成功`);
                 resolve(data);
             })
             .catch((err) => {
@@ -77,22 +92,13 @@ function onUpdate(query, item) {
 // 提交答案
 router.post('/interview/answer', async (ctx, next) => {
     const req = ctx.request.body;
-    let item;
+    const params = {type: req.type, id: req.id};
 
-    await interviewList.findOne(req)
+    await interviewList.findOne(params)
         .then(async (res) => {
             if (res) {
-                item = {
-                    ...res,
-                    data: [...res.data, {name: '111', content: req.content}]
-                }
-                await interviewList.updateOne(query, item)
-                    .then((data) => {
-                        resolve(data);
-                    })
-                    .catch((err) => {
-                        reject(err);
-                    });;
+                res.data.push({name: '111', content: req.content});
+                await onUpdate(params, res);
             }
             ctx.status = 200;
             ctx.body = {
@@ -102,7 +108,41 @@ router.post('/interview/answer', async (ctx, next) => {
             }
         })
         .catch((err) => {
-            reject(err);
+            console.log('err', err);
+        });
+});
+
+// 新增题目
+router.post('/interview/add', async (ctx, next) => {
+    const req = ctx.request.body;
+    const examples = await interviewList.find({type: req.type}, { _id: 0 });
+    const params = {
+        id: examples.length + 1,
+        type: req.type,
+        title: req.title,
+        level: req.level.value,
+        levelDesc: req.level.label,
+        desc: req.desc,
+        data: req.content ? [{
+            id: 0,
+            name: '',
+            content: req.content
+        }] : []
+    };
+
+    console.log('***', params)
+
+    await onSave(params)
+        .then(() => {
+            ctx.status = 200;
+            ctx.body = {
+                code: 200,
+                msg: '新增成功',
+                data: {}
+            }
+        })
+        .catch((err) => {
+            console.log('err', err);
         });
 });
 
