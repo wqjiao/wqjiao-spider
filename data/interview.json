@@ -1,99 +1,158 @@
-{
-    "id" : "1",
-    "type" : "html",
-    "title" : "DOCTYPE有什么作用?",
-    "level" : 0,
-    "levelDesc" : "简单",
-    "desc" : "描述 DOCTYPE 在 HTML 中的作用是什么?标准模式与混杂模式如何区分？它们有何意义?",
-    "data" : [ 
-        {
-            "name" : "namedemo",
-            "content" : "<p>1.DOCTYPE有什么作用:告诉浏览器使用哪个版本的HTML规范来渲染文档。</p><p>2.区分及意义描述:DOCTYPE不存在或形式不正确会导致HTML文档以混杂模式呈现。标准模式（Standards mode）以浏览器支持的最高标准运行；混杂模式（Quirks mode）中页面是一种比较宽松的向后兼容的方式显示。</p"
-        }
-    ]
-}
-{
-    "id" : "2",
-    "type" : "html",
-    "title" : "HTML5为什么只需要写 <!DOCTYPE HTML> ?",
-    "level" : 0,
-    "levelDesc" : "简单",
-    "desc" : "在使用 HTML5 时，为什么只需要在最前面添加 &gt;!DOCTYPE HTML &lt",
-    "data" : [ 
-        {
-            "name" : "namedemo",
-            "content" : "HTML5不基于SGML（Standard Generalized Markup Language 标准通用标记语言），因此不需要对DTD（DTD 文档类型定义）进行引用，但是需要DOCTYPE来规范浏览器行为。HTML4.01基于SGML，所以需要引用DTD。才能告知浏览器文档所使用的文档类型，如下：&gt;!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01//EN' 'http://www.w3.org/TR/html4/strict.dtd'&lt mode）以浏览器支持的最高标准运行；混杂模式（Quirks mode）中页面是一种比较宽松的向后兼容的方式显示。"
-        }
-    ]
-}
-{
-    "id" : "3",
-    "type" : "html",
-    "title" : "行内元素、块级元素、空(void)元素分别有那些?",
-    "level" : 0,
-    "levelDesc" : "简单",
-    "desc" : "分别列举出行内元素、块级元素、 空(void)元素有那些?",
-    "data" : [ 
-        {
-            "name" : "namedemo",
-            "content" : "行内元素：a span img input select; 块级元素：div ul ol li dl dt dd h1 p; 空元素：br hr link meta"
-        }
-    ]
-}
-{
-    "id" : "4",
-    "type" : "html",
-    "title" : "简述一下你对HTML语义化的理解?",
-    "level" : 0,
-    "levelDesc" : "简单",
-    "desc" : "简述一下你对HTML语义化的理解",
-    "data" : [ 
-        {
-            "name" : "namedemo",
-            "content" : "<p>1.掉或丢失样式的时候能够让页面呈现出清晰的结构。</p><p>2.有利于SEO和搜索引擎建立良好沟通，有助于爬虫抓取更多的信息，爬虫依赖于标签来确定上下文和各个关键字的权重。</p><p>3.方便其它设备解析。4.便于团队开发和维护，语义化根据可读性。</p>"
-        }
-    ]
-}
-{
-    "id" : "1",
-    "type" : "css",
-    "title" : "CSS的盒子模型",
-    "level" : 0,
-    "levelDesc" : "简单",
-    "desc" : "介绍一下标准的CSS的盒子模型？与低版本IE的盒子模型有什么不同的？",
-    "data" : [ 
-        {
-            "name" : "namedemo",
-            "content" : "标准盒子模型：宽度=内容的宽度（content）+ border + padding + margin 低版本IE盒子模型：宽度=内容宽度（content+border+padding）+ margin"
-        }
-    ]
-}
-{
-    "id" : "1",
-    "type" : "javascript",
-    "title" : "两数之和",
-    "level" : 0,
-    "levelDesc" : "简单",
-    "desc" : "给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。",
-    "data" : [ 
-        {
-            "name" : "namedemo",
-            "content" : ""
-        }
-    ]
-}
-{
-    "id" : "5",
-    "type" : "html",
-    "title" : "cookies、sessionStorage、localStorage 的区别?",
-    "level" : 1,
-    "levelDesc" : "中等",
-    "desc" : "分别描述cookies、sessionStorage、localStorage 之间的共同点、不同点及优缺点",
-    "data" : [ 
-        {
-            "name" : "namedemo",
-            "type" : "html",
-            "content" : "<p>共同点：都是保存在浏览器端，且是同源的。</p><p>区别：1.cookies是为了标识用户身份而存储在用户本地终端上的数据，始终在同源http请求中携带，即cookies在浏览器和服务器间来回传递，而sessionstorage和localstorage不会自动把数据发给服务器，仅在本地保存。2.存储大小的限制不同。cookie保存的数据很小，不能超过4k，而sessionstorage和localstorage保存的数据大，可达到5M。3.数据的有效期不同。cookie在设置的cookie过期时间之前一直有效，即使窗口或者浏览器关闭。sessionstorage仅在浏览器窗口关闭之前有效。localstorage始终有效，窗口和浏览器关闭也一直保存，用作长久数据保存。4.作用域不同。cookie在所有的同源窗口都是共享；sessionstorage不在不同的浏览器共享，即使同一页面；localstorage在所有同源窗口都是共享</p>"
-        }
-    ]
-}
+[
+    {
+        "id" : "1",
+        "type" : "html",
+        "title" : "DOCTYPE有什么作用?",
+        "level" : 0,
+        "levelDesc" : "简单",
+        "desc" : "描述 DOCTYPE 在 HTML 中的作用是什么?标准模式与混杂模式如何区分？它们有何意义?",
+        "data" : [ 
+            {
+                "name" : "namedemo",
+                "content" : "<p>1.DOCTYPE有什么作用:告诉浏览器使用哪个版本的HTML规范来渲染文档。</p><p>2.区分及意义描述:DOCTYPE不存在或形式不正确会导致HTML文档以混杂模式呈现。标准模式（Standards mode）以浏览器支持的最高标准运行；混杂模式（Quirks mode）中页面是一种比较宽松的向后兼容的方式显示。</p"
+            }
+        ]
+    },
+    {
+        "id" : "2",
+        "type" : "html",
+        "title" : "HTML5为什么只需要写 <!DOCTYPE HTML> ?",
+        "level" : 0,
+        "levelDesc" : "简单",
+        "desc" : "在使用 HTML5 时，为什么只需要在最前面添加 &gt;!DOCTYPE HTML &lt",
+        "data" : [ 
+            {
+                "name" : "namedemo",
+                "content" : "HTML5不基于SGML（Standard Generalized Markup Language 标准通用标记语言），因此不需要对DTD（DTD 文档类型定义）进行引用，但是需要DOCTYPE来规范浏览器行为。HTML4.01基于SGML，所以需要引用DTD。才能告知浏览器文档所使用的文档类型，如下：&gt;!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01//EN' 'http://www.w3.org/TR/html4/strict.dtd'&lt mode）以浏览器支持的最高标准运行；混杂模式（Quirks mode）中页面是一种比较宽松的向后兼容的方式显示。"
+            }
+        ]
+    },
+    {
+        "id" : "3",
+        "type" : "html",
+        "title" : "行内元素、块级元素、空(void)元素分别有那些?",
+        "level" : 0,
+        "levelDesc" : "简单",
+        "desc" : "分别列举出行内元素、块级元素、 空(void)元素有那些?",
+        "data" : [ 
+            {
+                "name" : "namedemo",
+                "content" : "行内元素：a span img input select; 块级元素：div ul ol li dl dt dd h1 p; 空元素：br hr link meta"
+            }
+        ]
+    },
+    {
+        "id" : "4",
+        "type" : "html",
+        "title" : "简述一下你对HTML语义化的理解?",
+        "level" : 0,
+        "levelDesc" : "简单",
+        "desc" : "简述一下你对HTML语义化的理解",
+        "data" : [ 
+            {
+                "name" : "namedemo",
+                "content" : "<p>1.掉或丢失样式的时候能够让页面呈现出清晰的结构。</p><p>2.有利于SEO和搜索引擎建立良好沟通，有助于爬虫抓取更多的信息，爬虫依赖于标签来确定上下文和各个关键字的权重。</p><p>3.方便其它设备解析。4.便于团队开发和维护，语义化根据可读性。</p>"
+            }
+        ]
+    },
+    {
+        "id" : "5",
+        "type" : "css",
+        "title" : "CSS的盒子模型",
+        "level" : 0,
+        "levelDesc" : "简单",
+        "desc" : "介绍一下标准的CSS的盒子模型？与低版本IE的盒子模型有什么不同的？",
+        "data" : [ 
+            {
+                "name" : "namedemo",
+                "content" : "标准盒子模型：宽度=内容的宽度（content）+ border + padding + margin 低版本IE盒子模型：宽度=内容宽度（content+border+padding）+ margin"
+            }
+        ]
+    },
+    {
+        "id" : "6",
+        "type" : "javascript",
+        "title" : "两数之和",
+        "level" : 0,
+        "levelDesc" : "简单",
+        "desc" : "给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。",
+        "data" : [ 
+            {
+                "name" : "namedemo",
+                "content" : ""
+            }
+        ]
+    },
+    {
+        "id" : "7",
+        "type" : "html",
+        "title" : "cookies、sessionStorage、localStorage",
+        "level" : 1,
+        "levelDesc" : "中等",
+        "desc" : "分别描述cookies、sessionStorage、localStorage 之间的共同点、不同点及优缺点",
+        "data" : [ 
+            {
+                "name" : "namedemo",
+                "type" : "html",
+                "content" : "<p>共同点：都是保存在浏览器端，且是同源的。</p><p>区别：1.cookies是为了标识用户身份而存储在用户本地终端上的数据，始终在同源http请求中携带，即cookies在浏览器和服务器间来回传递，而sessionstorage和localstorage不会自动把数据发给服务器，仅在本地保存。2.存储大小的限制不同。cookie保存的数据很小，不能超过4k，而sessionstorage和localstorage保存的数据大，可达到5M。3.数据的有效期不同。cookie在设置的cookie过期时间之前一直有效，即使窗口或者浏览器关闭。sessionstorage仅在浏览器窗口关闭之前有效。localstorage始终有效，窗口和浏览器关闭也一直保存，用作长久数据保存。4.作用域不同。cookie在所有的同源窗口都是共享；sessionstorage不在不同的浏览器共享，即使同一页面；localstorage在所有同源窗口都是共享</p>"
+            }
+        ]
+    },
+    {
+        "id" : "8",
+        "type" : "javascript",
+        "title" : "bind、call、apply",
+        "level" : 1,
+        "levelDesc" : "中等",
+        "desc" : "说一下对bind，call，apply三个函数的认识，自己实现一下bind方法",
+        "data" : []
+    },
+    {
+        "id" : "9",
+        "type" : "javascript",
+        "title" : "requestAnimationFrame",
+        "level" : 1,
+        "levelDesc" : "中等",
+        "desc" : "前端的requestAnimationFrame了解吗？有使用过吗？说一下使用场景",
+        "data" : []
+    },
+    {
+        "id" : "10",
+        "type" : "javascript",
+        "title" : "前后端跨域",
+        "level" : 1,
+        "levelDesc" : "中等",
+        "desc" : "对前后端跨域可以说一下吗？有碰到过跨域问题吗？如何解决跨域的？",
+        "data" : []
+    },
+    {
+        "id" : "11",
+        "type" : "javascript",
+        "title" : "前端性能优化",
+        "level" : 1,
+        "levelDesc" : "中等",
+        "desc" : "对前端性能优化有什么了解？有在之前的工作中解决过性能问题么？一般都通过那几个方面去优化的？",
+        "data" : []
+    },
+    {
+        "id" : "12",
+        "type" : "node",
+        "title" : "nodejs的异步IO原理",
+        "level" : 1,
+        "levelDesc" : "中等",
+        "desc" : "介绍一下对nodejs的异步IO原理",
+        "data" : []
+    },
+    {
+        "id" : "13",
+        "type" : "javascript",
+        "title" : "字符串翻转",
+        "level" : 0,
+        "levelDesc" : "简单中等",
+        "desc" : "一道简单的算法题，实现输入一个字符串，返回字符串翻转输出",
+        "data" : [{
+            "name": "",
+            "content": "1.str.split('').reverse().join('');2.使用遍历，从最后一位一次传入新的变量空间中。"
+        }]
+    }
+]

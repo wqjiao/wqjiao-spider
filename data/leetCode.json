@@ -1,5 +1,5 @@
 {
-	"total": 1107,
+	"total": 1168,
 	"data": [
 		{
 			"questionId": "1",
@@ -219,7 +219,7 @@
 		},
 		{
 			"questionId": "28",
-			"title": "实现strStr()",
+			"title": "实现 strStr()",
 			"typename": "AppliedTranslationNode",
 			"level": 1,
 			"question_id": 28,
@@ -1475,7 +1475,7 @@
 		},
 		{
 			"questionId": "185",
-			"title": "部门工资前三高的员工",
+			"title": "部门工资前三高的所有员工",
 			"typename": "AppliedTranslationNode",
 			"level": 3,
 			"question_id": 185,
@@ -3133,7 +3133,7 @@
 			"questionId": "392",
 			"title": "判断子序列",
 			"typename": "AppliedTranslationNode",
-			"level": 2,
+			"level": 1,
 			"question_id": 392,
 			"question_href": "is-subsequence"
 		},
@@ -8354,6 +8354,14 @@
 			"question_href": "remove-vowels-from-a-string"
 		},
 		{
+			"questionId": "1090",
+			"title": "阿姆斯特朗数",
+			"typename": "AppliedTranslationNode",
+			"level": 1,
+			"question_id": 1090,
+			"question_href": "armstrong-number"
+		},
+		{
 			"questionId": "1091",
 			"title": "子树的最大平均值",
 			"typename": "AppliedTranslationNode",
@@ -8410,12 +8418,44 @@
 			"question_href": "stream-of-characters"
 		},
 		{
+			"questionId": "1098",
+			"title": "最大唯一数",
+			"typename": "AppliedTranslationNode",
+			"level": 1,
+			"question_id": 1098,
+			"question_href": "largest-unique-number"
+		},
+		{
 			"questionId": "1099",
 			"title": "得分最高的路径",
 			"typename": "AppliedTranslationNode",
 			"level": 2,
 			"question_id": 1099,
 			"question_href": "path-with-maximum-minimum-value"
+		},
+		{
+			"questionId": "1100",
+			"title": "最低成本联通所有城市",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1100,
+			"question_href": "connecting-cities-with-minimum-cost"
+		},
+		{
+			"questionId": "1101",
+			"title": "平行课程",
+			"typename": "AppliedTranslationNode",
+			"level": 3,
+			"question_id": 1101,
+			"question_href": "parallel-courses"
+		},
+		{
+			"questionId": "1102",
+			"title": "检查一个数是否在数组中占绝大多数",
+			"typename": "AppliedTranslationNode",
+			"level": 1,
+			"question_id": 1102,
+			"question_href": "check-if-a-number-is-majority-element-in-a-sorted-array"
 		},
 		{
 			"questionId": "1103",
@@ -8450,12 +8490,36 @@
 			"question_href": "escape-a-large-maze"
 		},
 		{
+			"questionId": "1107",
+			"title": "最少交换次数来组合所有的 1",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1107,
+			"question_href": "minimum-swaps-to-group-all-1s-together"
+		},
+		{
+			"questionId": "1108",
+			"title": "用户网站访问行为分析",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1108,
+			"question_href": "analyze-user-website-visit-pattern"
+		},
+		{
 			"questionId": "1111",
 			"title": "多边形三角剖分的最低得分",
 			"typename": "AppliedTranslationNode",
 			"level": 2,
 			"question_id": 1111,
 			"question_href": "minimum-score-triangulation-of-polygon"
+		},
+		{
+			"questionId": "1112",
+			"title": "拼写单词",
+			"typename": "AppliedTranslationNode",
+			"level": 1,
+			"question_id": 1112,
+			"question_href": "find-words-that-can-be-formed-by-characters"
 		},
 		{
 			"questionId": "1113",
@@ -8480,6 +8544,22 @@
 			"level": 1,
 			"question_id": 1115,
 			"question_href": "valid-boomerang"
+		},
+		{
+			"questionId": "1116",
+			"title": "最大层内元素和",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1116,
+			"question_href": "maximum-level-sum-of-a-binary-tree"
+		},
+		{
+			"questionId": "1117",
+			"title": "地图分析",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1117,
+			"question_href": "as-far-from-land-as-possible"
 		},
 		{
 			"questionId": "1118",
@@ -8522,6 +8602,38 @@
 			"question_href": "longest-duplicate-substring"
 		},
 		{
+			"questionId": "1123",
+			"title": "单行键盘",
+			"typename": "AppliedTranslationNode",
+			"level": 1,
+			"question_id": 1123,
+			"question_href": "single-row-keyboard"
+		},
+		{
+			"questionId": "1124",
+			"title": "字符串转化",
+			"typename": "AppliedTranslationNode",
+			"level": 3,
+			"question_id": 1124,
+			"question_href": "string-transforms-into-another-string"
+		},
+		{
+			"questionId": "1125",
+			"title": "设计文件系统",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1125,
+			"question_href": "design-file-system"
+		},
+		{
+			"questionId": "1126",
+			"title": "连接棒材的最低费用",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1126,
+			"question_href": "minimum-cost-to-connect-sticks"
+		},
+		{
 			"questionId": "1127",
 			"title": "最后一块石头的重量",
 			"typename": "AppliedTranslationNode",
@@ -8552,6 +8664,38 @@
 			"level": 2,
 			"question_id": 1130,
 			"question_href": "last-stone-weight-ii"
+		},
+		{
+			"questionId": "1131",
+			"title": "统计只含单一字母的子串",
+			"typename": "AppliedTranslationNode",
+			"level": 1,
+			"question_id": 1131,
+			"question_href": "count-substrings-with-only-one-distinct-letter"
+		},
+		{
+			"questionId": "1132",
+			"title": "前后拼接",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1132,
+			"question_href": "before-and-after-puzzle"
+		},
+		{
+			"questionId": "1133",
+			"title": "按字典序排在最后的子串",
+			"typename": "AppliedTranslationNode",
+			"level": 3,
+			"question_id": 1133,
+			"question_href": "last-substring-in-lexicographical-order"
+		},
+		{
+			"questionId": "1134",
+			"title": "与目标颜色间的最短距离",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1134,
+			"question_href": "shortest-distance-to-target-color"
 		},
 		{
 			"questionId": "1135",
@@ -8602,6 +8746,14 @@
 			"question_href": "distant-barcodes"
 		},
 		{
+			"questionId": "1144",
+			"title": "水资源分配优化",
+			"typename": "AppliedTranslationNode",
+			"level": 3,
+			"question_id": 1144,
+			"question_href": "optimize-water-distribution-in-a-village"
+		},
+		{
 			"questionId": "1145",
 			"title": "元素和为目标值的子矩阵数量",
 			"typename": "AppliedTranslationNode",
@@ -8632,6 +8784,30 @@
 			"level": 2,
 			"question_id": 1148,
 			"question_href": "adding-two-negabinary-numbers"
+		},
+		{
+			"questionId": "1152",
+			"title": "矩阵中 1 的最大数量",
+			"typename": "AppliedTranslationNode",
+			"level": 3,
+			"question_id": 1152,
+			"question_href": "maximum-number-of-ones"
+		},
+		{
+			"questionId": "1153",
+			"title": "产品销售分析 I",
+			"typename": "AppliedTranslationNode",
+			"level": 1,
+			"question_id": 1153,
+			"question_href": "product-sales-analysis-i"
+		},
+		{
+			"questionId": "1154",
+			"title": "产品销售分析 II",
+			"typename": "AppliedTranslationNode",
+			"level": 1,
+			"question_id": 1154,
+			"question_href": "product-sales-analysis-ii"
 		},
 		{
 			"questionId": "1156",
@@ -8666,6 +8842,22 @@
 			"question_href": "letter-tile-possibilities"
 		},
 		{
+			"questionId": "1161",
+			"title": "项目员工 I",
+			"typename": "AppliedTranslationNode",
+			"level": 1,
+			"question_id": 1161,
+			"question_href": "project-employees-i"
+		},
+		{
+			"questionId": "1163",
+			"title": "项目员工 III",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1163,
+			"question_href": "project-employees-iii"
+		},
+		{
 			"questionId": "1168",
 			"title": "复写零",
 			"typename": "AppliedTranslationNode",
@@ -8696,6 +8888,38 @@
 			"level": 2,
 			"question_id": 1171,
 			"question_href": "shortest-path-in-binary-matrix"
+		},
+		{
+			"questionId": "1172",
+			"title": "销售分析 I ",
+			"typename": "AppliedTranslationNode",
+			"level": 1,
+			"question_id": 1172,
+			"question_href": "sales-analysis-i"
+		},
+		{
+			"questionId": "1173",
+			"title": "1083. 销售分析II",
+			"typename": "AppliedTranslationNode",
+			"level": 1,
+			"question_id": 1173,
+			"question_href": "sales-analysis-ii"
+		},
+		{
+			"questionId": "1179",
+			"title": "游戏玩法分析 I",
+			"typename": "AppliedTranslationNode",
+			"level": 1,
+			"question_id": 1179,
+			"question_href": "game-play-analysis-i"
+		},
+		{
+			"questionId": "1180",
+			"title": "游戏玩法分析 II",
+			"typename": "AppliedTranslationNode",
+			"level": 1,
+			"question_id": 1180,
+			"question_href": "game-play-analysis-ii"
 		},
 		{
 			"questionId": "1183",
@@ -8778,6 +9002,14 @@
 			"question_href": "parsing-a-boolean-expression"
 		},
 		{
+			"questionId": "1198",
+			"title": "小众书籍",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1198,
+			"question_href": "unpopular-books"
+		},
+		{
 			"questionId": "1203",
 			"title": "按序打印",
 			"typename": "AppliedTranslationNode",
@@ -8856,6 +9088,262 @@
 			"level": 3,
 			"question_id": 1220,
 			"question_href": "smallest-sufficient-team"
+		},
+		{
+			"questionId": "1227",
+			"title": "等价多米诺骨牌对的数量",
+			"typename": "AppliedTranslationNode",
+			"level": 1,
+			"question_id": 1227,
+			"question_href": "number-of-equivalent-domino-pairs"
+		},
+		{
+			"questionId": "1228",
+			"title": "叶值的最小代价生成树",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1228,
+			"question_href": "minimum-cost-tree-from-leaf-values"
+		},
+		{
+			"questionId": "1229",
+			"title": "颜色交替的最短路径",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1229,
+			"question_href": "shortest-path-with-alternating-colors"
+		},
+		{
+			"questionId": "1230",
+			"title": "绝对值表达式的最大值",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1230,
+			"question_href": "maximum-of-absolute-value-expression"
+		},
+		{
+			"questionId": "1236",
+			"title": "第 N 个泰波那契数",
+			"typename": "AppliedTranslationNode",
+			"level": 1,
+			"question_id": 1236,
+			"question_href": "n-th-tribonacci-number"
+		},
+		{
+			"questionId": "1238",
+			"title": "字母板上的路径",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1238,
+			"question_href": "alphabet-board-path"
+		},
+		{
+			"questionId": "1239",
+			"title": "最大的以 1 为边界的正方形",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1239,
+			"question_href": "largest-1-bordered-square"
+		},
+		{
+			"questionId": "1240",
+			"title": "石子游戏 II",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1240,
+			"question_href": "stone-game-ii"
+		},
+		{
+			"questionId": "1247",
+			"title": "递减元素使数组呈锯齿状",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1247,
+			"question_href": "decrease-elements-to-make-array-zigzag"
+		},
+		{
+			"questionId": "1248",
+			"title": "二叉树着色游戏",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1248,
+			"question_href": "binary-tree-coloring-game"
+		},
+		{
+			"questionId": "1249",
+			"title": "快照数组",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1249,
+			"question_href": "snapshot-array"
+		},
+		{
+			"questionId": "1251",
+			"title": "段式回文",
+			"typename": "AppliedTranslationNode",
+			"level": 3,
+			"question_id": 1251,
+			"question_href": "longest-chunked-palindrome-decomposition"
+		},
+		{
+			"questionId": "1260",
+			"title": "一年中的第几天",
+			"typename": "AppliedTranslationNode",
+			"level": 1,
+			"question_id": 1260,
+			"question_href": "ordinal-number-of-date"
+		},
+		{
+			"questionId": "1261",
+			"title": "单字符重复子串的最大长度",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1261,
+			"question_href": "swap-for-maximum-repeated-substring"
+		},
+		{
+			"questionId": "1262",
+			"title": "子数组中占绝大多数的元素",
+			"typename": "AppliedTranslationNode",
+			"level": 3,
+			"question_id": 1262,
+			"question_href": "online-majority-element-in-subarray"
+		},
+		{
+			"questionId": "1263",
+			"title": "掷骰子的N种方法",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1263,
+			"question_href": "number-of-dice-rolls-with-target-sum"
+		},
+		{
+			"questionId": "1267",
+			"title": "从链表中删去总和值为零的连续节点",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1267,
+			"question_href": "remove-zero-sum-consecutive-nodes-from-linked-list"
+		},
+		{
+			"questionId": "1270",
+			"title": "餐盘栈",
+			"typename": "AppliedTranslationNode",
+			"level": 3,
+			"question_id": 1270,
+			"question_href": "dinner-plate-stacks"
+		},
+		{
+			"questionId": "1272",
+			"title": "查询无效交易",
+			"typename": "AppliedTranslationNode",
+			"level": 1,
+			"question_id": 1272,
+			"question_href": "invalid-transactions"
+		},
+		{
+			"questionId": "1273",
+			"title": "比较字符串最小字母出现频次",
+			"typename": "AppliedTranslationNode",
+			"level": 1,
+			"question_id": 1273,
+			"question_href": "compare-strings-by-frequency-of-the-smallest-character"
+		},
+		{
+			"questionId": "1279",
+			"title": "质数排列",
+			"typename": "AppliedTranslationNode",
+			"level": 1,
+			"question_id": 1279,
+			"question_href": "prime-arrangements"
+		},
+		{
+			"questionId": "1280",
+			"title": "健身计划评估",
+			"typename": "AppliedTranslationNode",
+			"level": 1,
+			"question_id": 1280,
+			"question_href": "diet-plan-performance"
+		},
+		{
+			"questionId": "1281",
+			"title": "构建回文串检测",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1281,
+			"question_href": "can-make-palindrome-from-substring"
+		},
+		{
+			"questionId": "1282",
+			"title": "猜字谜",
+			"typename": "AppliedTranslationNode",
+			"level": 3,
+			"question_id": 1282,
+			"question_href": "number-of-valid-words-for-each-puzzle"
+		},
+		{
+			"questionId": "1287",
+			"title": "公交站间的距离",
+			"typename": "AppliedTranslationNode",
+			"level": 1,
+			"question_id": 1287,
+			"question_href": "distance-between-bus-stops"
+		},
+		{
+			"questionId": "1288",
+			"title": "删除一次得到子数组最大和",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1288,
+			"question_href": "maximum-subarray-sum-with-one-deletion"
+		},
+		{
+			"questionId": "1289",
+			"title": "一周中的第几天",
+			"typename": "AppliedTranslationNode",
+			"level": 1,
+			"question_id": 1289,
+			"question_href": "day-of-the-week"
+		},
+		{
+			"questionId": "1290",
+			"title": "使数组严格递增",
+			"typename": "AppliedTranslationNode",
+			"level": 3,
+			"question_id": 1290,
+			"question_href": "make-array-strictly-increasing"
+		},
+		{
+			"questionId": "1297",
+			"title": "“气球” 的最大数量",
+			"typename": "AppliedTranslationNode",
+			"level": 1,
+			"question_id": 1297,
+			"question_href": "maximum-number-of-balloons"
+		},
+		{
+			"questionId": "1298",
+			"title": "反转每对括号间的子串",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1298,
+			"question_href": "reverse-substrings-between-each-pair-of-parentheses"
+		},
+		{
+			"questionId": "1299",
+			"title": "K 次串联后最大子数组之和",
+			"typename": "AppliedTranslationNode",
+			"level": 2,
+			"question_id": 1299,
+			"question_href": "k-concatenation-maximum-sum"
+		},
+		{
+			"questionId": "1300",
+			"title": "查找集群内的「关键连接」",
+			"typename": "AppliedTranslationNode",
+			"level": 3,
+			"question_id": 1300,
+			"question_href": "critical-connections-in-a-network"
 		}
 	]
 }

@@ -2,12 +2,13 @@
  * @Author: wqjiao 
  * @Date: 2019-07-11 18:45:37 
  * @Last Modified by: wqjiao
- * @Last Modified time: 2019-07-15 17:09:48
+ * @Last Modified time: 2019-09-20 09:44:13
  * @Description: 入口文件
  */
 require('module-alias/register');
 const Koa = require('koa');
 const cors = require('koa2-cors');
+const router = require('koa-router')();
 const bodyParser = require('koa-bodyparser');
 const mongoose = require('mongoose');
 const debug = require('debug');
@@ -41,6 +42,12 @@ if (spiders[appName]) {
 app.use(cors());
 app.use(bodyParser());
 
+router.get('/get/:id', async (ctx, next) => {
+    console.log(ctx.params)
+    ctx.body = '这是一个get页面';
+});
+
+app.use(router.routes())
 // 注入 api
 Object.values(apis).forEach(api => {
     app.use(api.routes()).use(api.allowedMethods());

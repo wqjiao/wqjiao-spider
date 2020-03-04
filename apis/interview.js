@@ -2,7 +2,7 @@
  * @Author: wqjiao
  * @Date: 2019-03-25 17:57:51
  * @Last Modified by: wqjiao
- * @Last Modified time: 2019-07-18 15:10:57
+ * @Last Modified time: 2019-08-16 15:17:55
  * @Description: interview
  */
 const router = require('koa-router')();
@@ -41,6 +41,38 @@ router.get('/interview/list', async (ctx, next) => {
           data: examples
         }
     }
+});
+
+// 模糊查询列表数据
+router.post('/interview/list/search', async (ctx, next) => {
+    const query = ctx.request.body;
+
+    if (query.title) {
+        query['title'] = new RegExp(query.title);
+    }
+    
+    if (query.desc) {
+        query['desc'] = new RegExp(query.desc);
+    }
+
+    await interviewList.find(query)
+        .then(async (res) => {
+
+            console.log(res, query)
+            ctx.status = 200;
+            ctx.body = {
+                code: 200,
+                msg: 'success',
+                data: {
+                    total: res.length,
+                    type: 'list',
+                    data: res
+                }
+            }
+        })
+        .catch((err) => {
+            console.log('err', err);
+        });
 });
 
 // 获取详情数据
